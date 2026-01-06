@@ -94,6 +94,10 @@ func generate_floor() -> void:
 		level_range = floor_variant.level_range
 		cog_pool = floor_variant.cog_pool
 	
+	# Add reward to seen_items
+	if floor_variant.discard_item:
+		ItemService.seen_item(floor_variant.discard_item)
+	
 	# Set up floor modifiers (debug anomalies set below)
 	for modifier in floor_variant.modifiers + debug_modifiers:
 		initialize_floor_mod(modifier)

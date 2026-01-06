@@ -141,7 +141,6 @@ toonups = Dictionary[int, int]({
 5: 10,
 6: 10
 })
-gag_cap = 100
 character = SubResource("Resource_br8l0")
 pink_slips = 10
 throw_heal_boost = 0.1

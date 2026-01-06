@@ -582,6 +582,7 @@ signal s_liquidator_boss_defeated
 signal s_pocket_prank_used(prank: ItemActive)
 signal s_special_chest_opened(chest: TreasureChest)
 signal s_player_jumped
+signal s_paint_silo_victory
 
 func on_floor_start(game_floor: GameFloor) -> void:
 	if game_floor.floor_variant.is_alt_floor:
@@ -605,3 +606,42 @@ signal s_slendercog_boss_initialized(directory: Node3D)
 signal s_shop_spawned(shop: ToonShop)
 signal s_game_win
 #endregion
+
+
+## Custom Seeds
+## Input one of these to get a wacky effect
+var custom_seeds: Dictionary[String, String] = {
+	# Guaranteed Motorcycle Boots (hi boots)
+	"boots": "res://objects/items/resources/custom_seeds/seed_boots.tres",
+	
+	# Start with 1 laff
+	"maxtoon": "res://objects/items/resources/custom_seeds/seed_maxtoon.tres",
+	
+	# Start with +3 Anomaly Boost
+	"anomalous": "res://objects/items/resources/custom_seeds/seed_anomalous.tres",
+	
+	# Start with a 50% Defense Mult & 200% Evasiveness Mult
+	"fedora": "res://objects/items/resources/custom_seeds/seed_fedora.tres",
+	
+	# Play with a mirrored camera
+	## (Scrapped. Enable at your own risk (flashing imagery warning)
+	#"mirror": "res://objects/items/resources/custom_seeds/seed_mirror.tres",
+	
+	# Fake "Authenticating..." screen
+	"multiplayer": "res://objects/items/resources/custom_seeds/seed_multiplayer.tres",
+	
+	# All grunt Cogs are proxies
+	"proxy": "res://objects/items/resources/custom_seeds/seed_proxy.tres",
+	
+	# All Cogs say "I'm neoNote" when battle starts
+	"neonote": "res://objects/items/resources/custom_seeds/seed_neonote.tres",
+	
+	# Mouse shopkeeper every floor :)
+	"mouse": "res://objects/items/resources/custom_seeds/seed_mouse.tres",
+	
+	# All floors have the blackout effect
+	"blackout": "res://objects/items/resources/custom_seeds/seed_blackout.tres",
+	
+	# All floors have the low gravity effect
+	"zerog": "res://objects/items/resources/custom_seeds/seed_zerog.tres",
+}
