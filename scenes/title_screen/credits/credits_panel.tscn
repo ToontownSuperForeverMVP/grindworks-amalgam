@@ -44,7 +44,6 @@
 [ext_resource type="Texture2D" uid="uid://b375rhlwbechh" path="res://scenes/title_screen/credits/icons/icon_greetings.png" id="29_qn4cl"]
 [ext_resource type="Texture2D" uid="uid://bk67why3saua1" path="res://scenes/title_screen/credits/icons/icon_evh.png" id="30_k0n1y"]
 [ext_resource type="Texture2D" uid="uid://by2y1qleoa8nv" path="res://scenes/title_screen/credits/icons/icon_lappy.png" id="32_ec610"]
-[ext_resource type="Texture2D" uid="uid://cxgdaa2ob5wme" path="res://scenes/title_screen/credits/icons/icon_blu_toon.png" id="32_yfxw4"]
 [ext_resource type="Script" uid="uid://bpn2grm5wiohs" path="res://scenes/title_screen/credits/game_credit_animated.gd" id="33_33vr7"]
 [ext_resource type="Texture2D" uid="uid://wsxmbg4xvghr" path="res://scenes/title_screen/credits/icons/icon_inso.png" id="33_cdx2j"]
 [ext_resource type="Texture2D" uid="uid://ctm0g411jlmlq" path="res://scenes/title_screen/credits/icons/icon_erin.png" id="35_edme2"]
@@ -79,7 +78,6 @@
 [ext_resource type="Texture2D" uid="uid://t87ifqnw7eux" path="res://scenes/title_screen/credits/icons/icon_stripey/f1800036-c28b-4947-8285-3845e9f5d8ba.png" id="66_p0psl"]
 [ext_resource type="Texture2D" uid="uid://dlcfad03xmb1c" path="res://scenes/title_screen/credits/icons/icon_alder.png" id="66_slv7n"]
 [ext_resource type="Texture2D" uid="uid://ct5ksco28mhgs" path="res://scenes/title_screen/credits/icons/icon_stripey/fb821da4-b8da-448f-a43a-361810e3ba58.png" id="67_8u8q4"]
-[ext_resource type="Texture2D" uid="uid://ddyp4dug0t45d" path="res://scenes/title_screen/credits/icons/icon_evelyn.png" id="67_e1miu"]
 [ext_resource type="Texture2D" uid="uid://bi4snh00iaqki" path="res://scenes/title_screen/credits/icons/icon_daisy.png" id="68_3ohx7"]
 [ext_resource type="Texture2D" uid="uid://cyi0ifeqapok1" path="res://scenes/title_screen/credits/icons/icon_jacky.png" id="72_vfha2"]
 [ext_resource type="Texture2D" uid="uid://2idccit1ej3t" path="res://scenes/title_screen/credits/icons/icon_doggo.png" id="73_qbbro"]
@@ -708,14 +706,6 @@ name = "Erin (Cosmic)"
 role = "Creator of Original Pocket Pranks mod"
 metadata/_custom_type_script = "uid://cjlnrijv3rd4r"
 
-[sub_resource type="Resource" id="Resource_slv7n"]
-resource_name = "Evelyn (Velvet Petunia)"
-script = ExtResource("3_ksngi")
-icon = ExtResource("67_e1miu")
-name = "Evelyn (Velvet Petunia)"
-role = "Designer of Live Wire"
-metadata/_custom_type_script = "uid://cjlnrijv3rd4r"
-
 [sub_resource type="Resource" id="Resource_daahu"]
 resource_name = "Goatcanon"
 script = ExtResource("3_ksngi")
@@ -728,14 +718,6 @@ script = ExtResource("3_ksngi")
 icon = ExtResource("72_vfha2")
 name = "Jackyland"
 role = "Designer of Stickler"
-metadata/_custom_type_script = "uid://cjlnrijv3rd4r"
-
-[sub_resource type="Resource" id="Resource_bsh7l"]
-resource_name = "Just a BLU Toon"
-script = ExtResource("3_ksngi")
-icon = ExtResource("32_yfxw4")
-name = "Just a BLU Toon"
-role = "Cog Creator Testing & Designer of Cash Cow"
 metadata/_custom_type_script = "uid://cjlnrijv3rd4r"
 
 [sub_resource type="Resource" id="Resource_id6o1"]
@@ -802,7 +784,7 @@ offset_bottom = 260.0
 pivot_offset = Vector2(254, 260)
 script = ExtResource("2_3oeyj")
 credits = Array[ExtResource("3_ksngi")]([SubResource("Resource_ttvt2"), SubResource("Resource_7jidy"), SubResource("Resource_ohq2p"), SubResource("Resource_pbofr"), SubResource("Resource_kqonq"), SubResource("Resource_2m611"), SubResource("Resource_1oxjh"), SubResource("Resource_hdogm"), SubResource("Resource_wxm28"), SubResource("Resource_ent56"), SubResource("Resource_33vr7"), SubResource("Resource_dib10"), SubResource("Resource_7gmnw"), SubResource("Resource_ec610"), SubResource("Resource_7hcke"), SubResource("Resource_5m0kl"), SubResource("Resource_qbbro"), SubResource("Resource_5lw2h"), SubResource("Resource_qhht1"), SubResource("Resource_1g23c"), SubResource("Resource_edme2"), SubResource("Resource_4b13b"), SubResource("Resource_2bp18"), SubResource("Resource_dgyyg"), SubResource("Resource_coqfa"), SubResource("Resource_vfha2"), SubResource("Resource_w23nx"), SubResource("Resource_ol1pa"), SubResource("Resource_mdpg3"), SubResource("Resource_o0djb"), SubResource("Resource_m42v0"), SubResource("Resource_dk2i1"), SubResource("Resource_c5kur"), SubResource("Resource_e1miu")])
-special_thanks = Array[ExtResource("3_ksngi")]([SubResource("Resource_6v767"), SubResource("Resource_3uak0"), SubResource("Resource_a2ghk"), SubResource("Resource_3ohx7"), SubResource("Resource_e66o5"), SubResource("Resource_slv7n"), SubResource("Resource_daahu"), SubResource("Resource_uk0ku"), SubResource("Resource_bsh7l"), SubResource("Resource_id6o1"), SubResource("Resource_ohm68")])
+special_thanks = Array[ExtResource("3_ksngi")]([SubResource("Resource_6v767"), SubResource("Resource_3uak0"), SubResource("Resource_a2ghk"), SubResource("Resource_3ohx7"), SubResource("Resource_e66o5"), SubResource("Resource_daahu"), SubResource("Resource_uk0ku"), SubResource("Resource_id6o1"), SubResource("Resource_ohm68")])
 title = "Credits"
 body = ""
 

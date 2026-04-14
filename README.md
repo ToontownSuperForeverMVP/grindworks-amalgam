@@ -5,7 +5,7 @@ This is a single-player game based on Disney's Toontown Online developed with th
 
 ## Requirements
 
-- Godot v4.5.1
+- Godot v4.6.2
 
 ## Disclaimer
 - We are under no obligation to:
@@ -94,10 +94,8 @@ Enjoy!
 - Daisy
 - DoggoMafia
 - Erin (Cosmic)
-- Evelyn (Velvet Petunia)
 - Goatcanon
 - Jackyland
-- Just a BLU Toon
 - Niji
 - Princess Sandy
 - You! Yes, really.
