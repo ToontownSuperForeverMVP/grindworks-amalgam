@@ -22,22 +22,16 @@ Enjoy!
 ## Credits
 - Evan
   - Project Lead, Programmer & Designer
-- Sketched
-  - Programmer & Game Designer
 - squiddy
   - Programmer, 3D & Texture Artist
 - TheRandomDog
   - Programmer
-- Bludoo
-  - Programmer & Game Designer
 - Kel'Block
   - 3D Artist, Animator & Texture Artist
 - Elisei
   - 3D Artist & Texture Artist
 - neoNote
   - 3D Artist & Texture Artist, Sound & Game Designer
-- Treetop Legend
-  - 3D Artist, Animator & Rigging
 - ROTTIEBONES
   - 3D Artist
 - Inso
@@ -80,8 +74,6 @@ Enjoy!
   - Quality Assurance
 - Stripey
   - Marketing & Quality Assurance
-- Greetings
-  - Consultant
 - Lappy
   - Lappy?
 - Toontown: Event Horizon
@@ -91,8 +83,6 @@ Enjoy!
 ### Special Thanks
 - Alder (Beastnode)
 - AlexLH
-- Daisy
-- DoggoMafia
 - Erin (Cosmic)
 - Goatcanon
 - Jackyland

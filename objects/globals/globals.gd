@@ -655,7 +655,7 @@ var custom_seeds: Dictionary[String, Variant] = {
 	"kelblock": "res://objects/items/resources/custom_seeds/seed_kelblock.tres",
 	
 	# Sends you to heaven
-	"sketched": "res://objects/items/resources/custom_seeds/seed_sketched.tres",
+	"2014": "res://objects/items/resources/custom_seeds/seed_sketched.tres",
 	
 	# Purple filter, Toon emits a purple glow
 	"lavender": "res://objects/items/resources/custom_seeds/seed_lavender.tres",
@@ -669,7 +669,7 @@ var custom_seeds: Dictionary[String, Variant] = {
 		"res://objects/items/resources/custom_seeds/seed_mirror.tres"
 	],
 	
-	# Mirrored AND Sketched (we love you)
+	# Mirrored AND 2014 (we love you)
 	"whitemirror": [
 		"res://objects/items/resources/custom_seeds/seed_sketched.tres",
 		"res://objects/items/resources/custom_seeds/seed_mirror.tres"
