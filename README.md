@@ -1,25 +1,15 @@
-# Toontown: The Grindworks
-
-
-This is a single-player game based on Disney's Toontown Online developed with the Godot Engine.
+# The Amalgam
+A modded fork for Toontown: The Grindworks that aims to randomize more aspects of the game for more crazier runs. This fork is a WIP, but as features are added, they will be written in the README.
 
 ## Requirements
 
 - Godot v4.6.2
 
-## Disclaimer
-- We are under no obligation to:
-  -  update this repository
-  -  accept pull requests
-- We may or may not:
-  - publish additional releases in the future
-  - create technical documentation
-- Please read the license before using this software.
-  - Any assets from Toontown Online are not included in the license.
+## The Amalgam Credits
+- Toontown Super
+  - Everything
 
-Enjoy!
-
-## Credits
+## Grindworks Credits
 - Evan
   - Project Lead, Programmer & Designer
 - squiddy
